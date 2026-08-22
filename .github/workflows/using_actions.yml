@@ -1,7 +1,8 @@
 name: Using Actions
 
 on:
-  push:
+  # push:
+    workflow_dispatch:
 
 jobs:
   test:
